@@ -7,12 +7,12 @@
         </md-button>
         <span class="md-title">
           <span class="lblWlc">
-            {{(getUser !== '') ? `Bienvenidx ${getUser}!` : ''}}
+            {{(getUser !== '') ? `Welcome ${getUser}!` : ''}}
           </span>
         </span>
         <div class="md-toolbar-section-end">
-           <md-button v-if="!getIsauth" class="md-dense md-raised md-primary" v-on:click="doLogin()">Login</md-button>
-           <md-button v-if="getIsauth" class="md-dense md-raised md-primary" v-on:click="doLogOut()">LogOut</md-button>
+          <md-button v-if="!getIsauth" class="md-dense md-raised md-primary" @click="doLogin()">Login</md-button>
+          <md-button v-else class="md-dense md-raised md-primary" @click="doLogOut()">LogOut</md-button>
         </div>
       </md-app-toolbar>
 
