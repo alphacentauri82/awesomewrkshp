@@ -2,6 +2,8 @@
 
 > Work In Progress
 
+So.. since so far the firebase details are hardcoded.. In order to use it for your own content you will have to enter your own configs in `/src/main.js` ;)
+
 ## To do:
 
 * Slides component

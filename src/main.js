@@ -22,12 +22,12 @@ Vue.config.productionTip = false
 // Initialize Firebase
 
 const config = {
-  apiKey: 'AIzaSyDzD_nnMOqVEn5ohAWToeMRV3u-_OjPYx0',
-  authDomain: 'rxjs-like-a-boss.firebaseapp.com',
-  databaseURL: 'https://rxjs-like-a-boss.firebaseio.com',
-  projectId: 'rxjs-like-a-boss',
+  apiKey: 'INSERT_YOUR_API_KEY',
+  authDomain: 'YOUR_FIREBASE_DOMAIN',
+  databaseURL: 'YOUR_DATABASE_URL',
+  projectId: 'YOUR_PROJECT_ID',
   storageBucket: '',
-  messagingSenderId: '934060255534'
+  messagingSenderId: 'YOUR_ID'
 }
 Vue.use(VueFire)
 firebase.initializeApp(config)
